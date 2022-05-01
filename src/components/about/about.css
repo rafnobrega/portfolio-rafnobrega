@@ -40,14 +40,16 @@
 
 .about-title {
   font-weight: 400;
+  margin: 2px 20px 0px 20px;
 }
 
 .about-sub {
-  margin: 20px 0px;
+  margin: 20px 20px 10px 20px;
 }
 
 .about-desc {
   font-weight: 300;
+  margin: 2px 20px 0px 20px;
 }
 
 .about-social {

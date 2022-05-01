@@ -1,6 +1,7 @@
-import "./product.css"
+import "./product.css";
 
-const Product = ({img,link}) => {
+const Product = ({ img, link, projectName }) => {
+  // console.log(projectName);
   return (
     <div className="p">
       <div className="p-browser">
@@ -8,11 +9,14 @@ const Product = ({img,link}) => {
         <div className="p-circle"></div>
         <div className="p-circle"></div>
       </div>
-      <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="p-img"></img>
-      </a>
+      <div className="p-container">
+        <a href={link} target="_blank" rel="noreferrer">
+        <div className="p-pee">{projectName}</div>
+          <img src={img} alt="" className="p-img"></img>
+        </a>
+      </div>
     </div>
   );
-}
+};
 
-export default Product
+export default Product;

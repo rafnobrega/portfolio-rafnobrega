@@ -7,17 +7,18 @@ const ProductList = () => {
     <div className="pl">
       <div className="pl-texts">
         <h1 className="pl-title"> Some of my projects</h1>
-        <p className="pl-desc">
-          Nob is a creative portfolio that your work has been waiting. Beautiful homes, sunning portfolio styles & a whole lot more.
-        </p>
+        <p className="pl-desc">{/* optional text here */}</p>
       </div>
       <div className="pl-list">
         {products.map((item) => (
-          <Product key={item.id} img={item.img} link={item.link} />
+          <Product
+            key={item.id}
+            img={item.img}
+            link={item.link}
+            projectName={item.projectName}
+          />
         ))}
       </div>
-
-
     </div>
   );
 };

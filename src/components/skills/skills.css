@@ -1,0 +1,51 @@
+.s-logos {
+  width: 100%;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.s-logos > * {
+  flex: 1 1 50px;
+}
+
+.s-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.s-img {
+  width: 50px;
+  height: 50px;
+
+}
+
+.skills {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+}
+
+.s-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 100%;
+}
+.s-right {
+  flex: 1;
+  margin: 100px;
+}
+
+
+.s-title {
+  font-weight: 400;
+  margin: 2px 20px 0px 20px;
+}
+
+
+
