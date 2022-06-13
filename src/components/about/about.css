@@ -39,7 +39,7 @@
 }
 
 .about-title {
-  font-weight: 400;
+  font-weight: 600;
   margin: 2px 20px 0px 20px;
 }
 
@@ -76,37 +76,6 @@
   transform: scale3d(1.2, 1.2, 1.2);
 }
 
-@media screen and (max-width: 480px) {
-  .about {
-    flex-direction: column;
-    text-align: center;
-    margin-top: 50px;
-  }
-
-  .about-left {
-    width: 100%;
-  }
-
-  .about-card {
-    height: 30vh;
-  }
-
-  .about-card.bg {
-    display: none;
-  }
-
-  .about-right {
-    padding: 10px;
-  }
-
-  .about-social {
-    margin-top: 5px;
-  }
-
-  .about-social a {
-    margin-bottom: 40px;
-  }
-}
 
 @media screen and (max-width: 480px) {
   .about {
