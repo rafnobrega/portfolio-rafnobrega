@@ -49,6 +49,7 @@
 }
 
 .c-desc {
+  font-size: 1.2rem;
   font-weight: 200;
 }
 
@@ -80,9 +81,17 @@ button {
   color: white;
   font-weight: 500;
   cursor: pointer;
+  transition: 300ms;
+  margin-right: 15px;
 }
 
-@media screen and (max-width: 480px) {
+button:hover {
+
+  background-color: #B4EB6C;
+
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
   .c-wrapper {
     flex-direction: column;
     padding: 0px 50px;
@@ -103,7 +112,7 @@ form {
   flex-wrap: wrap;
 }
 input {
-  width: 35%;
+  width: 60%;
   height: 40px;
   margin: 10px;
   margin-left: 0;

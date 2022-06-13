@@ -46,7 +46,7 @@
 
 
 
-@keyframes move {
+/* @keyframes move {
   25% {
     transform: translateY(-50px);
   }
@@ -59,7 +59,7 @@
   100% {
     transform: translateY(-200px);
   }
-}
+} */
 
 .intro-title-item {
   height: 50px;
@@ -68,8 +68,9 @@
   color: #ea7355;
   display: flex;
   align-items: center;
-}
+  }
 
+  
 .intro-scroll{
   width: 30px;
   height: 30px;
@@ -140,3 +141,5 @@ display: none;
   font-size: 20px;
 }
 }
+
+

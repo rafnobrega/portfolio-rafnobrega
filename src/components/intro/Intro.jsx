@@ -13,11 +13,12 @@ const Intro = () => {
           <h1 className="intro-name">Rafael Nobrega</h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
-              <div className="intro-title-item">Web Developer</div>
-              <div className="intro-title-item">Photographer</div>
-              <div className="intro-title-item">Software Sales Specialist</div>
-              <div className="intro-title-item">Solutions Architect</div>
-              <div className="intro-title-item">MBA in Marketing</div>
+              <div className="intro-title-item">
+                Full-Stack Web Developer</div>
+              {/* <div className="intro-title-item">Photographer</div> */}
+              {/* <div className="intro-title-item">Software Sales Specialist</div> */}
+              {/* <div className="intro-title-item">Solutions Architect</div> */}
+              {/* <div className="intro-title-item">MBA in Marketing</div> */}
             </div>
           </div>
           <p className="intro-desc">
@@ -26,7 +27,7 @@ const Intro = () => {
           </p>
 
         </div>
-
+        
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24px"
