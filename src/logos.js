@@ -1,63 +1,63 @@
 export const logos = [
   {
     id: 1, // Javascript
-    img: "https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/javascript.png",
     name: "JavaScript",
   },
   {
     id: 2, // React
-    img: "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/react.webp",
     name: "React",
   },
   {
     id: 3, // Node
-    img: "https://cdn0.iconfinder.com/data/icons/long-shadow-web-icons/512/nodejs-256.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/nodejs.webp",
     name: "Node.js",
   },
   {
     id: 4, // Typescript
-    img: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/typescript.png",
     name: "TypeScript",
   },
   {
     id: 5, // Sass
-    img: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/288_Sass_logo-256.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/sass.webp",
     name: "Sass",
   },
   {
     id: 6, // Postgres
-    img: "https://i.ibb.co/t8ZrrZZ/postgres.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/postgresql.png",
     name: "Postgres",
   },
   {
     id: 7, // SQL
-    img: "https://cdn1.iconfinder.com/data/icons/hawcons/32/699251-icon-24-file-sql-256.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/sql.webp",
     name: "SQL",
   },
 
   {
     id: 8, // jQuery
-    img: "https://i.ibb.co/zVvsvgb/jquery.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/jquery.png",
     name: "jQuery",
   },
   {
     id: 9, // Bootstrap
-    img: "https://i.ibb.co/d7Hcf9V/bootstrap.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/bootstrap.png",
     name: "Bootstrap",
   },
   {
     id: 10, // Ruby on Rails
-    img: "https://i.ibb.co/YDrkzRT/rails.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/rubyonrails.png",
     name: "Ruby on Rails",
   },
   {
     id: 11, // Photoshop
-    img: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/23_Photoshop_Adobe_logo_logos-256.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/photoshop.webp",
     name: "Photoshop",
   },
   {
     id: 12, // Lightroom
-    img: "https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/22_Lightroom_Adobe_logo_logos-256.png",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
     name: "Lightroom",
   },
 ];
