@@ -19,6 +19,7 @@ const About = () => {
           marketing and software sales. Moved from Porto Alegre, Brazil, to
           beautiful British Columbia in 2016.
         </p>
+        
         <p className="about-desc">
           Coding started as a hobby for me a few years ago, and throughout the
           years, it became a passion for building solutions and facing new
