@@ -14,11 +14,11 @@ export const logos = [
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/nodejs.webp",
     name: "Node.js",
   },
-  {
-    id: 4, // Typescript
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/typescript.png",
-    name: "TypeScript",
-  },
+  // {
+  //   id: 4, // Typescript
+  //   img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/typescript.png",
+  //   name: "TypeScript",
+  // },
   {
     id: 5, // Sass
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/sass.webp",
@@ -60,26 +60,30 @@ export const logos = [
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
     name: "Lightroom",
   },
-  
-  {
-    id: 13, // Lightroom
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
-    name: "Lightroom",
-  },
-  {
-    id: 14, // Lightroom
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
-    name: "Lightroom",
-  },
-  {
-    id: 15, // Lightroom
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
-    name: "Lightroom",
-  },
-  {
-    id: 16, // Lightroom
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
-    name: "Lightroom",
-  },
 
+  {
+    id: 13, // Material UI
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/MaterialUI.png",
+    name: "Material UI",
+  },
+  {
+    id: 14, // Webpack
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/Webpack.png",
+    name: "Webpack",
+  },
+  {
+    id: 15, // Jest
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/Jest.png",
+    name: "Jest",
+  },
+  {
+    id: 16, // Storybook
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/storybook.png",
+    name: "Storybook",
+  },
+  {
+    id: 16, // Cypress
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
+    name: "Cypress",
+  },
 ];
