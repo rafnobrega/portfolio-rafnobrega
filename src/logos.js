@@ -60,4 +60,26 @@ export const logos = [
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
     name: "Lightroom",
   },
+  
+  {
+    id: 13, // Lightroom
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
+    name: "Lightroom",
+  },
+  {
+    id: 14, // Lightroom
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
+    name: "Lightroom",
+  },
+  {
+    id: 15, // Lightroom
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
+    name: "Lightroom",
+  },
+  {
+    id: 16, // Lightroom
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/lightroom.webp",
+    name: "Lightroom",
+  },
+
 ];
