@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1, // SCHEDULER
-    img: "https://raw.githubusercontent.com/rafnobrega/scheduler/master/docs/Create%20new%20appointment.gif",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/scheduler.jpg",
     link: "https://github.com/rafnobrega/scheduler",
     projectName: "Interview Scheduler",
   },
@@ -31,7 +31,7 @@ export const products = [
     link: "https://github.com/rafnobrega/tinyapp",
     projectName: "TinyApp (à la bit.ly)",
   },
-  
+
   {
     id: 6, // PORTFOLIO
     img: "https://i.postimg.cc/tXZdCL1V/screencapture-localhost-3000-2022-04-23-13-39-36.png",
@@ -69,5 +69,4 @@ export const products = [
   //   link: "https://codepen.io/rafnobrega/full/QWqqawm",
   //   projectName: "Tribute page - Ayrton Senna",
   // },
-
 ];

@@ -1,6 +1,12 @@
 import "./about.css";
 import AboutMe from "../../img/AboutMe1.png";
-import { FaGithub, FaLinkedin, FaInstagram, FaFacebook } from "react-icons/fa";
+import {
+  FaGithub,
+  FaLinkedin,
+  FaInstagram,
+  FaFacebook,
+  FaFile,
+} from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 
 const About = () => {
@@ -19,7 +25,7 @@ const About = () => {
           marketing and software sales. Moved from Porto Alegre, Brazil, to
           beautiful British Columbia in 2016.
         </p>
-        
+
         <p className="about-desc">
           Coding started as a hobby for me a few years ago, and throughout the
           years, it became a passion for building solutions and facing new
@@ -53,6 +59,13 @@ const About = () => {
             target="_blank"
           >
             <FaFacebook />
+          </a>
+          <a
+            href="https://www.canva.com/design/DAFD7z7OF0o/k4ZRfi6PE14Z_nAV1jEwNg/view?utm_content=DAFD7z7OF0o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+            rel="noreferrer"
+            target="_blank"
+          >
+            <FaFile />
           </a>
           <a href="mailto:rafael.rlnr@outlook.com" rel="noreferrer">
             <MdEmail />

@@ -40,17 +40,33 @@
 }
 
 .c-icon {
-  width: 30px;
-  height: 30px;
+  width: auto;
+  height: 40px;
   margin-right: 20px;
   font-size: 2rem;
   text-decoration: none;
   color: #ea7355;
+  transition: 300ms;
+}
+
+.c-icon:hover {
+  color: #b4eb6c;
 }
 
 .c-desc {
   font-size: 1.2rem;
   font-weight: 200;
+  margin-right: auto;
+}
+
+.c-desc span {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.c-desc p {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 form {
@@ -86,9 +102,7 @@ button {
 }
 
 button:hover {
-
-  background-color: #B4EB6C;
-
+  background-color: #b4eb6c;
 }
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
@@ -96,28 +110,28 @@ button:hover {
     flex-direction: column;
     padding: 0px 50px;
   }
-  .c-title{
+  .c-title {
     font-size: 30px;
   }
   .c-info-item {
-  margin: 20px 0px;
-  width: 100%;
+    margin: 20px 0px;
+    width: 100%;
   }
   .c-desc {
-  display: none;
-}
-form {
-  margin-top: 0px;
-  display: flex;
-  flex-wrap: wrap;
-}
-input {
-  width: 60%;
-  height: 40px;
-  margin: 10px;
-  margin-left: 0;
-}
-button {
-  margin-top: 10px;
-}
+    display: none;
+  }
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  input {
+    width: 60%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+  button {
+    margin-top: 10px;
+  }
 }

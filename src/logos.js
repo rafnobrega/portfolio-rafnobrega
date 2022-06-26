@@ -82,7 +82,7 @@ export const logos = [
     name: "Storybook",
   },
   {
-    id: 16, // Cypress
+    id: 17, // Cypress
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
     name: "Cypress",
   },

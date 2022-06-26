@@ -4,12 +4,18 @@ import { MdEmail } from "react-icons/md";
 import { useContext, useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { ThemeContext } from "../../context";
+import { FaFile } from "react-icons/fa";
 
 const Contact = () => {
   const formRef = useRef();
   const [done, setDone] = useState(false);
   const theme = useContext(ThemeContext);
   const darkMode = theme.state.darkMode;
+  const [disable, setDisable] = useState(true);
+
+  function handleChange(event) {
+    setDisable(event.target.value === "");
+  }
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -53,13 +59,25 @@ const Contact = () => {
               </a>
               <p>rafael.rlnr@outlook.com</p>
             </div>
+            <div className="c-info-item">
+              <a
+                href="https://www.canva.com/design/DAFD7z7OF0o/k4ZRfi6PE14Z_nAV1jEwNg/view?utm_content=DAFD7z7OF0o&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                rel="noreferrer"
+                target="_blank"
+                className="c-icon"
+              >
+                <FaFile />
+              </a>
+              <p>Resume</p>
+            </div>
           </div>
         </div>
 
         <div className="c-right">
           <p className="c-desc">
-            <b>Don't be a stranger.</b> Get in touch. Call, text, or send an
-            email.
+            <span>Don't be a stranger.</span>
+            <br />
+            <p>Get in touch. Call, text, or send an email.</p>
           </p>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
@@ -85,8 +103,9 @@ const Contact = () => {
               rows="5"
               placeholder="Message"
               name="message"
+              onChange={handleChange}
             />
-            <button>Submit</button>
+            <button disabled={disable}>Submit</button>
             {done && "Thank you for your message!"}
           </form>
         </div>
