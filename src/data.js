@@ -1,11 +1,10 @@
 export const products = [
   {
-    id: 1, // SCHEDULER
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/scheduler.jpg",
-    link: "https://github.com/rafnobrega/scheduler",
-    projectName: "Interview Scheduler",
+    id: 1, // CONNECT EASY
+    img: "https://github.com/rafnobrega/connect_easy/blob/master/docs/home-page.png?raw=true",
+    link: "https://github.com/rafnobrega/connect_easy",
+    projectName: "Connect Easy",
   },
-
   {
     id: 2, // BLACK LOTUS RESTAURANT
     img: "https://i.ibb.co/pwn9XHV/blacklotusrestaurant.png",
@@ -17,6 +16,12 @@ export const products = [
     img: "https://i.ibb.co/D5x8hyb/tweeter1.png",
     link: "https://github.com/rafnobrega/tweeter",
     projectName: "SpringFace (à la Tweeter)",
+  },
+  {
+    id: 1, // SCHEDULER
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/scheduler.jpg",
+    link: "https://github.com/rafnobrega/scheduler",
+    projectName: "Interview Scheduler",
   },
 
   {
@@ -32,31 +37,31 @@ export const products = [
     projectName: "TinyApp (à la bit.ly)",
   },
 
-  {
-    id: 6, // PORTFOLIO
-    img: "https://i.postimg.cc/tXZdCL1V/screencapture-localhost-3000-2022-04-23-13-39-36.png",
-    link: "https://www.rafnobrega.com/",
-    projectName: "Personal portfolio",
-  },
-  {
-    id: 7, // NORFOLK
-    img: "https://i.postimg.cc/13PthVNH/screencapture-codepen-io-rafnobrega-full-Yzr-ERvb-2022-04-23-13-45-28.png",
-    link: "https://codepen.io/rafnobrega/full/YzrERvb",
-    projectName: "Norfolk Terrier Puppies",
-  },
-  {
-    id: 8, // PLAYSTATION
-    img: "https://i.postimg.cc/g2qWvMjy/screencapture-codepen-io-rafnobrega-full-OJxvw-Er-2022-04-23-13-43-39.png",
-    link: "https://codepen.io/rafnobrega/full/OJxvwEr",
-    projectName: "Playstation quick start guide",
-  },
+  // {
+  //   id: 6, // PORTFOLIO
+  //   img: "https://i.postimg.cc/tXZdCL1V/screencapture-localhost-3000-2022-04-23-13-39-36.png",
+  //   link: "https://www.rafnobrega.com/",
+  //   projectName: "Personal portfolio",
+  // },
+  // {
+  //   id: 7, // NORFOLK
+  //   img: "https://i.postimg.cc/13PthVNH/screencapture-codepen-io-rafnobrega-full-Yzr-ERvb-2022-04-23-13-45-28.png",
+  //   link: "https://codepen.io/rafnobrega/full/YzrERvb",
+  //   projectName: "Norfolk Terrier Puppies",
+  // },
+  // {
+  //   id: 8, // PLAYSTATION
+  //   img: "https://i.postimg.cc/g2qWvMjy/screencapture-codepen-io-rafnobrega-full-OJxvw-Er-2022-04-23-13-43-39.png",
+  //   link: "https://codepen.io/rafnobrega/full/OJxvwEr",
+  //   projectName: "Playstation quick start guide",
+  // },
 
-  {
-    id: 9, // OLD PORTFOLIO
-    img: "https://i.postimg.cc/Fs6ZTmdN/screencapture-codepen-io-rafnobrega-full-g-OGj-JWV-2022-04-23-13-49-16.png",
-    link: "https://codepen.io/rafnobrega/full/gOGjJWV",
-    projectName: "FCC Personal Portfolio",
-  },
+  // {
+  //   id: 9, // OLD PORTFOLIO
+  //   img: "https://i.postimg.cc/Fs6ZTmdN/screencapture-codepen-io-rafnobrega-full-g-OGj-JWV-2022-04-23-13-49-16.png",
+  //   link: "https://codepen.io/rafnobrega/full/gOGjJWV",
+  //   projectName: "FCC Personal Portfolio",
+  // },
   // {
   //   id: 10, // CALC
   //   img: "https://i.postimg.cc/L4cKGdZB/screencapture-localhost-3000-2022-04-23-13-28-32.png",
