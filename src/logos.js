@@ -88,22 +88,22 @@ export const logos = [
   },
   {
     id: 18, // MongoDB
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
-    name: "Cypress",
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/mongodb.png",
+    name: "MongoDB",
   },
   {
-    id: 17, // Cypress
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
-    name: "Cypress",
+    id: 19, // Redux
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/redux.webp",
+    name: "Redux",
   },
   {
-    id: 17, // Cypress
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
-    name: "Cypress",
+    id: 20, // Socket.io
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/socket-io-logo-png-transparent.png",
+    name: "Socket.io",
   },
   {
-    id: 17, // Cypress
-    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
-    name: "Cypress",
+    id: 21, // WebRTC
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/webrt.png",
+    name: "WebRTC",
   },
 ];
