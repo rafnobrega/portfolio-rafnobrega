@@ -86,4 +86,24 @@ export const logos = [
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
     name: "Cypress",
   },
+  {
+    id: 18, // MongoDB
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
+    name: "Cypress",
+  },
+  {
+    id: 17, // Cypress
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
+    name: "Cypress",
+  },
+  {
+    id: 17, // Cypress
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
+    name: "Cypress",
+  },
+  {
+    id: 17, // Cypress
+    img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/logos-skills/cypress.png",
+    name: "Cypress",
+  },
 ];
