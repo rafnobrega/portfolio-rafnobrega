@@ -1,4 +1,4 @@
-import "./contact.css";
+import "./Contact.css";
 import { FiPhoneCall } from "react-icons/fi";
 import { MdEmail } from "react-icons/md";
 import { useContext, useRef, useState } from "react";
@@ -74,11 +74,11 @@ const Contact = () => {
         </div>
 
         <div className="c-right">
-          <p className="c-desc">
+          <div className="c-desc">
             <span>Don't be a stranger.</span>
             <br />
             <p>Get in touch. Call, text, or send an email.</p>
-          </p>
+          </div>
           <form ref={formRef} onSubmit={handleSubmit}>
             <input
               style={{ backgroundColor: darkMode && "#333" }}

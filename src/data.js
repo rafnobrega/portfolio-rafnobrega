@@ -1,4 +1,4 @@
-export const products = [
+export const projects = [
   {
     id: 1, // CONNECT EASY
     img: "https://github.com/rafnobrega/connect_easy/blob/master/docs/home-page.png?raw=true",

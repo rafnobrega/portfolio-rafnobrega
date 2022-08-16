@@ -1,6 +1,6 @@
-import "./product.css";
+import "./Project.css";
 
-const Product = ({ img, link, projectName }) => {
+const Project = ({ img, link, projectName }) => {
   // console.log(projectName);
   return (
     <div className="p">
@@ -11,7 +11,7 @@ const Product = ({ img, link, projectName }) => {
       </div>
       <div className="p-container">
         <a href={link} target="_blank" rel="noreferrer">
-        <div className="p-projectName">{projectName}</div>
+          <div className="p-projectName">{projectName}</div>
           <img src={img} alt="" className="p-img"></img>
         </a>
       </div>
@@ -19,4 +19,4 @@ const Product = ({ img, link, projectName }) => {
   );
 };
 
-export default Product;
+export default Project;

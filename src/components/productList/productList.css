@@ -1,80 +1,79 @@
-.pl{
-  padding: 50px 100px;
+.pl {
+  /* padding: 50px 100px; */
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
 
-.pl-texts{
+.pl-texts {
   width: 65%;
 }
 
-.pl-title{
+.pl-title {
   font-size: 50px;
   font-weight: 600;
 }
 
-.pl-desc{
+.pl-desc {
   margin: 20px 0px;
 }
 
-.pl-list{
+.pl-list {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
-
 @media screen and (max-width: 479px) {
-  .pl{
-  padding: 20px 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-}
-  
-  .pl-title{
-  font-size: 30px;
-  font-weight: 600;
-}
-  
+  .pl {
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .pl-title {
+    font-size: 30px;
+    font-weight: 600;
+  }
+
   .pl-list {
     width: 100%;
   }
 }
 
 @media screen and (min-width: 480px) {
-  .pl-title{
-  font-size: 40px;
-  font-weight: 600;
-}
-  
-  .pl{
-    padding: 10px;
+  .pl-title {
+    font-size: 40px;
+    font-weight: 600;
   }
 
-  .pl-texts{
+  .pl {
+    padding: 30px;
+  }
+
+  .pl-texts {
     width: 100%;
   }
 
-  .pl-desc{
+  .pl-desc {
     display: none;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-  .pl-title{
-  font-size: 60px;
-  font-weight: 600;
-}
+  .pl-title {
+    font-size: 60px;
+    font-weight: 600;
+  }
 }
 
 @media screen and (min-width: 1024px) {
-  .pl-title{
-  font-size: 60px;
-  font-weight: 600;
-}
+  .pl-title {
+    font-size: 60px;
+    font-weight: 600;
+  }
 }

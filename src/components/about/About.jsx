@@ -1,4 +1,4 @@
-import "./about.css";
+import "./About.css";
 import AboutMe from "../../img/AboutMe1.png";
 import {
   FaGithub,
