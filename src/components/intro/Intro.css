@@ -17,7 +17,7 @@
 
 .intro-left-wrapper {
   padding: 50px;
-  height: 50%;
+  /* height: 50%; */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -26,25 +26,28 @@
 .intro-hello {
   font-size: 30px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .intro-name {
   font-size: 60px;
+  margin-bottom: 20px;
 }
 
 .intro-title {
   height: 50px;
   overflow: hidden;
-  
 }
 
-.intro-title-wrapper{
+.intro-desc {
+  width: auto;
+  max-width: 500px;
+}
+
+.intro-title-wrapper {
   height: 100%;
   animation: move 10s ease-in-out infinite alternate;
-  }
-
-
-
+}
 
 /* @keyframes move {
   25% {
@@ -68,17 +71,18 @@
   color: #ea7355;
   display: flex;
   align-items: center;
-  
 }
-  
-.intro-scroll{
+
+.intro-desc {
+  width: auto;
+}
+
+.intro-scroll {
   width: 30px;
   height: 30px;
   position: absolute;
   bottom: 20px;
 }
-
-
 
 .intro-img {
   width: 100%;
@@ -87,7 +91,7 @@
   position: absolute;
 }
 
-.intro-bg{
+.intro-bg {
   clip-path: polygon(100% 0%, 100% 49%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
   /* clip-path: polygon(20% 0%, 100% 0, 100% 100%, 0% 100%); */
   background-color: #ea7355;
@@ -96,18 +100,14 @@
   position: absolute;
   top: 0;
   right: 0;
-
 }
 
-
-
-
 @media screen and (max-width: 480px) {
-  .intro{
+  .intro {
     flex-direction: column;
   }
 
-  .intro-left-wrapper{
+  .intro-left-wrapper {
     padding: 10px;
     align-items: center;
     justify-content: center;
@@ -115,31 +115,28 @@
     height: 100%;
   }
 
-  .intro-desc{
-display: none;
+  .intro-desc {
+    display: none;
   }
 
   .intro-title-item {
-  height: 50px;
-  font-size: 30px;
-  font-weight: bold;
-  color: #DD8169;
-  display: flex;
-  align-items: center;
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #dd8169;
+    display: flex;
+    align-items: center;
+  }
 }
-}
-
 
 @media screen and (max-width: 1200px) {
   .intro-title-item {
-  font-size: 22px;
-}
+    font-size: 22px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .intro-title-item {
-  font-size: 20px;
+    font-size: 20px;
+  }
 }
-}
-
-

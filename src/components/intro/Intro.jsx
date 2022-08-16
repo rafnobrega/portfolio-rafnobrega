@@ -10,7 +10,7 @@ const Intro = () => {
       <div className="intro-left">
         <div className="intro-left-wrapper">
           <h2 className="intro-hello">Hello, my name is</h2>
-          <h1 className="intro-name">Rafael Nobrega</h1>
+          <h1 className="intro-name">Rafael Nóbrega</h1>
           <div className="intro-title">
             <div className="intro-title-wrapper">
               <div className="intro-title-item">
