@@ -12,29 +12,41 @@ export const products = [
     projectName: "Black Lotus Restaurant",
   },
   {
-    id: 3, // TWEETER
-    img: "https://i.ibb.co/D5x8hyb/tweeter1.png",
-    link: "https://github.com/rafnobrega/tweeter",
-    projectName: "SpringFace (à la Tweeter)",
+    id: 3, // MOVIE DATABASE
+    img: "https://tinyurl.com/2s43fm2j",
+    link: "https://github.com/rafnobrega/omdb-app",
+    projectName: "Movie Database",
   },
   {
-    id: 1, // SCHEDULER
+    id: 4, // SCHEDULER
     img: "https://raw.githubusercontent.com/rafnobrega/portfolio-rafnobrega/main/src/img/scheduler.jpg",
     link: "https://github.com/rafnobrega/scheduler",
     projectName: "Interview Scheduler",
   },
+  {
+    id: 5, // TWEETER
+    img: "https://i.ibb.co/D5x8hyb/tweeter1.png",
+    link: "https://github.com/rafnobrega/tweeter",
+    projectName: "SpringFace (à la Tweeter)",
+  },
 
   {
-    id: 4, // NETFLIX
+    id: 6, // NETFLIX
     img: "https://i.postimg.cc/nLSf5zMv/screencapture-netflix-clone-8cb55-firebaseapp-2022-04-30-23-49-28.png",
     link: "http://netflix-clone.rafnobrega.com",
     projectName: "Netflix clone",
   },
   {
-    id: 5, // TINYAPP
+    id: 7, // TINYAPP
     img: "https://i.ibb.co/cT6KK2W/tinyapp1.png",
     link: "https://github.com/rafnobrega/tinyapp",
     projectName: "TinyApp (à la bit.ly)",
+  },
+  {
+    id: 8, // PLAYSTATION
+    img: "https://i.postimg.cc/g2qWvMjy/screencapture-codepen-io-rafnobrega-full-OJxvw-Er-2022-04-23-13-43-39.png",
+    link: "https://codepen.io/rafnobrega/full/OJxvwEr",
+    projectName: "Playstation quick start guide",
   },
 
   // {
@@ -48,12 +60,6 @@ export const products = [
   //   img: "https://i.postimg.cc/13PthVNH/screencapture-codepen-io-rafnobrega-full-Yzr-ERvb-2022-04-23-13-45-28.png",
   //   link: "https://codepen.io/rafnobrega/full/YzrERvb",
   //   projectName: "Norfolk Terrier Puppies",
-  // },
-  // {
-  //   id: 8, // PLAYSTATION
-  //   img: "https://i.postimg.cc/g2qWvMjy/screencapture-codepen-io-rafnobrega-full-OJxvw-Er-2022-04-23-13-43-39.png",
-  //   link: "https://codepen.io/rafnobrega/full/OJxvwEr",
-  //   projectName: "Playstation quick start guide",
   // },
 
   // {
